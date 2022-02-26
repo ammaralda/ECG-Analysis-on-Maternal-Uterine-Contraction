@@ -13,14 +13,16 @@ Each dataset includes main signal data and header data. This data can be separat
 
 Non-Local Means (NLM) is an algorithm that is usually to denoise images on the pre-processing part [6]. Unlike other non-local filters that take the mean from a group of  pixels, non-local means take the mean from all pixel targets [7]. This algorithm may create a more clear result rather than a normal non-local filter.
 Despite their characteristic to denoise 2-D signals, NLM also can be used for 1-D signals processing. NLM addressed the problem of signal v = u + n where u is ECG signal and n is additive noise. For a given sample s, the estimate uˆ(s) is a weighted sum of values at other points t that are within some “search neighborhood’ N(s)
- ![image](https://user-images.githubusercontent.com/57104367/155844642-4102ef10-0f9c-4a28-bc53-2cd593c6bbb7.png)
-	Where,
-  ![image](https://user-images.githubusercontent.com/57104367/155844646-57a99417-182d-4dfe-8e34-b60cd258560c.png)
-	And,
- ![image](https://user-images.githubusercontent.com/57104367/155844649-a9d22f5f-b3d3-4484-b200-7725fdd5c56e.png)
+![image](https://user-images.githubusercontent.com/57104367/155844642-4102ef10-0f9c-4a28-bc53-2cd593c6bbb7.png)
+	
+Where,
+![image](https://user-images.githubusercontent.com/57104367/155844646-57a99417-182d-4dfe-8e34-b60cd258560c.png)
 
 
-	Δ represent as local patch samples surrounding s, achieve optimal denoising result by choosing the patch as 20 and neighborhood search width 500 to make sure that the filter is not remove ECG waveform characteristic.
+And,
+![image](https://user-images.githubusercontent.com/57104367/155844649-a9d22f5f-b3d3-4484-b200-7725fdd5c56e.png)
+
+Δ represent as local patch samples surrounding s, achieve optimal denoising result by choosing the patch as 20 and neighborhood search width 500 to make sure that the filter is not remove ECG waveform characteristic.
 
 ![image](https://user-images.githubusercontent.com/57104367/155844657-97254cd6-1b9a-4931-b187-e2f7d1adc0dd.png)
 
