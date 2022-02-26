@@ -1,4 +1,4 @@
-# ECG-Analysis-on-Maternal-Uterine-Contraction
+# ECG Analysis on Maternal Uterine Contraction
 # Author
 - Alfitra Prima Putra (alfitrapp@gmail.com)
 - Chan Sook Wei (sookwei97@outlook.com)
