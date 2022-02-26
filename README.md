@@ -1,4 +1,11 @@
 # ECG-Analysis-on-Maternal-Uterine-Contraction
+# Author
+- Alfitra Prima Putra (alfitrapp@gmail.com)
+- Chan Sook Wei (sookwei97@outlook.com)
+- Dehan Ammaralda Handiana (dehanseal@gmail.com)
+- Lorenz Yong Jun Jie (yonglorenz@gmail.com)
+- MAGD AL SAYED WAHBE (majdwahbe@hotmail.com)
+- Tan Lee Hui (tanleehui0418@gmail.com)
 # This is project report used for share what we found
 
 Continuous monitoring of ECG signal is required to examine the physiological and pathological conditions of the heart. During pregnancy, maternal ECG monitoring is significant due to the reason there are numerous physiological changes in particular change in the cardiovascular system. In fact, there is an effect for the maternal uterine contraction on the heart rate that is associated with heart rate deceleration. In this study, a computational tool, MATLAB is used in order  to analyse and observe the differences between the baseline ECG with maternal uterine ECG. Denoising and filtering processes have been done before fast fourier transform in order to analyse the baseline and maternal uterine contraction ECG. From the statistical analysis, t-test results, it shows that all the p values are less than 0.05 which shows that there is a significant difference between baseline ECG and maternal uterine contraction ECG.
@@ -38,13 +45,23 @@ And denoised using Non-Local Means (NLM)
 # Result
 
 FFT on Normal Maternal Condition
+
+
 ![image](https://user-images.githubusercontent.com/57104367/155844732-6a98e539-f7db-473a-b901-321723565ae6.png)
 
 
+
+
 FFT on Maternal Uterine Contraction Condition
+
+
 ![image](https://user-images.githubusercontent.com/57104367/155844741-f09075fd-fc0b-40ec-a668-3e76ffe37ea2.png)
 
+
+
 T - Test Statistical Result
+
+
 ![image](https://user-images.githubusercontent.com/57104367/155844556-19a7337b-6dcb-4452-b41c-ae02a5a2f019.png)
 
 
