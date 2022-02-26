@@ -31,13 +31,23 @@ And,
 
 Δ represent as local patch samples surrounding s, achieve optimal denoising result by choosing the patch as 20 and neighborhood search width 500 to make sure that the filter is not remove ECG waveform characteristic.
 
+
+
 ![image](https://user-images.githubusercontent.com/57104367/155844657-97254cd6-1b9a-4931-b187-e2f7d1adc0dd.png)
+
+
 
 Input signal from database imported to MATLAB. Figure below shows the input from the dataset sub01_snr12dB_l1_c0_mecg.
 
+
+
 ![image](https://user-images.githubusercontent.com/57104367/155844661-455fd1ea-bae1-4517-8f59-bef8d74940b1.png)
 
+
+
 And denoised using Non-Local Means (NLM)
+
+
 ![image](https://user-images.githubusercontent.com/57104367/155844685-d2d28be4-dba5-4d66-88f2-d65c0d45b6d5.png)
 
 
@@ -53,6 +63,8 @@ FFT on Normal Maternal Condition
 
 
 FFT on Maternal Uterine Contraction Condition
+
+
 
 
 ![image](https://user-images.githubusercontent.com/57104367/155844741-f09075fd-fc0b-40ec-a668-3e76ffe37ea2.png)
